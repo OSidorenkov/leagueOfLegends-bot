@@ -19,7 +19,7 @@ def main():
     riotapi.set_api_key(config.API_KEY)
     riotapi.set_load_policy(LoadPolicy.lazy)
 
-    dyrus = riotapi.get_summoner_by_name("Busido")  # SummonerID is 5908
+    dyrus = riotapi.get_summoner_by_name("Barichpock")  # SummonerID is 5908
     # dyrus = riotapi.get_summoner_by_id(5908)  # You could use this as well
 
     match_list = dyrus.match_list()
